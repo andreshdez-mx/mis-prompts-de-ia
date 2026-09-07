@@ -4,9 +4,9 @@
 
 ## 📝  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4" in US East (N. Virginia)
 
-### Generación de código limpio
+### Analizar los Requests bloqueados por la regla
 * **IA:** LibreChat
-* **Objetivo:** Refactorizar funciones complejas en Python.
+* **Objetivo:** Detectar si es tráfuico válido o malicioso.
 * **Prompt:**
 ```text
 estoy recibiendo alarmas de aws con esta alerta Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4 con la WebACL-Prod, al revisar en athena veo miles de requests a esta url /libre/pos/poswidget.htm con referers de elnorte.com. reforma.com y mural.com.mx   puedes analizar esta información para ver si es tráfico válido y así permitir esta ruta como execpción para blqueo de  ja4fingerprint
