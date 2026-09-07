@@ -19,6 +19,7 @@ en Protección del sitemap y secciones: Aplicar a que te refieres con esto: rate
 ------------------------------
 cómo implementar Challenge (token) ?
 ```
+
 ## 🎨 Alerta Urgente | WebErrorCodes 404 | Tablas SQL
 
 ### Analizar los Requests, NO sólo los 404 si no todos, los 404 llegaron al origen.
@@ -35,7 +36,7 @@ estas seguro?  yo vi en total 161 requests de esa ip
 seguro? con la cantidad exacta de cada estado
 ```
 
-## 📝  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4" in US East (N. Virginia)
+## 🎨  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4" in US East (N. Virginia)
 
 ### Analizar los Requests bloqueados por la regla
 * **IA:** LibreChat
@@ -47,7 +48,7 @@ estoy recibiendo alarmas de aws con esta alerta Bloqueo en WAF de IPs que sobre 
 logs del waf:  DB  logs_waf_s3_db tabla waf_logs_webacl-prod_ja4_day  los logs de la webACL_Prod están en la tabla waf_logs_webacl-prod_day  y el rango es de 2026-09-01, 01:30–02:15 UTC
 ```
 
-## 📝  Alerta Urgente | WebErrorCodes 404 | Tablas SQL
+## 🎨  Alerta Urgente | WebErrorCodes 404 | Tablas SQL
 
 ### Analizar los Requests 404 de cierta ip que llegan al origen
 * **IA:** LibreChat
@@ -56,7 +57,8 @@ logs del waf:  DB  logs_waf_s3_db tabla waf_logs_webacl-prod_ja4_day  los logs d
 ```text
 analiza los requests de la siguiente ip 37.64.211.227  sobre el sitio de avisos de ocasion, la tabla de logs es: www_avisosdeocasion_com en la DB sampledb, busca los que pertenezcan ya al dia 02 de Septiembre del 2026, encuentra si fueron maliciosos y si lograron su objetivo y sugiere acciones a realizar.
 ```
-## 📝  Application | A transaction log for database is full | Event Logs Watch
+
+## 🎨  Application | A transaction log for database is full | Event Logs Watch
 
 ### Buscar posible solución a log de transacciones lleno en x DB
 * **IA:** deepseek
@@ -66,7 +68,7 @@ analiza los requests de la siguiente ip 37.64.211.227  sobre el sitio de avisos 
 qué solución puedo aplicar para este mensaje: The transaction log for database 'Sisinterdb' is full due to 'ACTIVE_TRANSACTION'?.
 ```
 
-## 📝  ALARM: "Anomaly Detection Errores 4xx distribuciones de CAMBRIDGE" in US East (N. Virginia)
+## 🎨  ALARM: "Anomaly Detection Errores 4xx distribuciones de CAMBRIDGE" in US East (N. Virginia)
 
 ### Analizar los Requests de cierta ip sobre el sitio mencionado
 * **IA:** LibreChat
@@ -75,7 +77,8 @@ qué solución puedo aplicar para este mensaje: The transaction log for database
 ```text
 puedes analizar el tráfico de esta ip 45.203.220.139 sobre el sitio cambridgemty.edu.mx los logs están en athena en la DB sampledb tabla www_cambridgemty_edu_mx los requests del día  2026-09-01 a partir de las 00 Hrs , revisar si es tráfico malicioso y sugerir posibles soluciones si es que lo es.
 ```
-## 📝  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4(WebAcl-ProdAvisos)" in US East (N. Virginia)
+
+## 🎨  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4(WebAcl-ProdAvisos)" in US East (N. Virginia)
 
 ### Analizar los Requests bloqueados por la regla
 * **IA:** LibreChat
