@@ -2,15 +2,16 @@
 
 ¡Bienvenido a mi colección de prompts! Aquí guardo y organizo las instrucciones que utilizo con diferentes Inteligencias Artificiales para optimizar mi flujo de trabajo.
 
-## 📝 Prompts para Desarrollo de Software
+## 📝  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4" in US East (N. Virginia)
 
 ### Generación de código limpio
-* **IA:** ChatGPT (GPT-4o) / Claude 3.5 Sonnet
+* **IA:** LibreChat
 * **Objetivo:** Refactorizar funciones complejas en Python.
 * **Prompt:**
 ```text
-Actúa como un desarrollador senior de Python. Revisa la siguiente función, optimiza su rendimiento y asegúrate de que cumpla con los estándares PEP 8. Explica brevemente los cambios que realizaste:
-[Inserta tu código aquí]
+estoy recibiendo alarmas de aws con esta alerta Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4 con la WebACL-Prod, al revisar en athena veo miles de requests a esta url /libre/pos/poswidget.htm con referers de elnorte.com. reforma.com y mural.com.mx   puedes analizar esta información para ver si es tráfico válido y así permitir esta ruta como execpción para blqueo de  ja4fingerprint
+------------------------------
+logs del waf:  DB  logs_waf_s3_db tabla waf_logs_webacl-prod_ja4_day  los logs de la webACL_Prod están en la tabla waf_logs_webacl-prod_day  y el rango es de 2026-09-01, 01:30–02:15 UTC
 ```
 
 ---
