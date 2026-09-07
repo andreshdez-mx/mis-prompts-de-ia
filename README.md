@@ -21,7 +21,7 @@ cómo implementar Challenge (token) ?
 ```
 ## 🎨 Alerta Urgente | WebErrorCodes 404 | Tablas SQL
 
-### Analizar los Requests bloqueados por la regla
+### Analizar los Requests, NO sólo los 404 si no todos, los 404 llegaron al origen.
 * **IA:** deepseek
 * **Objetivo:** Detectar y analizar tráfico malicioso.
 * **Prompt:**
@@ -56,6 +56,15 @@ logs del waf:  DB  logs_waf_s3_db tabla waf_logs_webacl-prod_ja4_day  los logs d
 ```text
 analiza los requests de la siguiente ip 37.64.211.227  sobre el sitio de avisos de ocasion, la tabla de logs es: www_avisosdeocasion_com en la DB sampledb, busca los que pertenezcan ya al dia 02 de Septiembre del 2026, encuentra si fueron maliciosos y si lograron su objetivo y sugiere acciones a realizar.
 ```
+## 📝  Application | A transaction log for database is full | Event Logs Watch
+
+### Buscar posible solución a log de transacciones lleno en x DB
+* **IA:** deepseek
+* **Objetivo:** Encontrar pasos a seguir para solucionar dicho evento.
+* **Prompt:**
+```text
+qué solución puedo aplicar para este mensaje: The transaction log for database 'Sisinterdb' is full due to 'ACTIVE_TRANSACTION'?.
+```
 
 ## 📝  ALARM: "Anomaly Detection Errores 4xx distribuciones de CAMBRIDGE" in US East (N. Virginia)
 
@@ -65,6 +74,15 @@ analiza los requests de la siguiente ip 37.64.211.227  sobre el sitio de avisos 
 * **Prompt:**
 ```text
 puedes analizar el tráfico de esta ip 45.203.220.139 sobre el sitio cambridgemty.edu.mx los logs están en athena en la DB sampledb tabla www_cambridgemty_edu_mx los requests del día  2026-09-01 a partir de las 00 Hrs , revisar si es tráfico malicioso y sugerir posibles soluciones si es que lo es.
+```
+## 📝  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4(WebAcl-ProdAvisos)" in US East (N. Virginia)
+
+### Analizar los Requests bloqueados por la regla
+* **IA:** LibreChat
+* **Objetivo:** Detectar si es tráfico válido o malicioso.
+* **Prompt:**
+```text
+actua en  realidad como un analista de AWS y revisa y analiza los requests totales de la ip 149.22.84.162 que realizó sobre la distribución comercial.elnorte.com los logs de estos requests está en la tabla comercial_elnorte_com  de la DB SampleDB. Revisa posible impacto, afectaciones y sugiere algunas soluciones.
 ```
 
 
