@@ -33,6 +33,16 @@ estoy recibiendo alarmas de aws con esta alerta Bloqueo en WAF de IPs que sobre 
 logs del waf:  DB  logs_waf_s3_db tabla waf_logs_webacl-prod_ja4_day  los logs de la webACL_Prod están en la tabla waf_logs_webacl-prod_day  y el rango es de 2026-09-01, 01:30–02:15 UTC
 ```
 
+## 📝  Alerta Urgente | WebErrorCodes 404 | Tablas SQL
+
+### Analizar los Requests 404 de cierta ip que llegan al origen
+* **IA:** LibreChat
+* **Objetivo:** Detectar si es tráfico válido o malicioso.
+* **Prompt:**
+```text
+analiza los requests de la siguiente ip 37.64.211.227  sobre el sitio de avisos de ocasion, la tabla de logs es: www_avisosdeocasion_com en la DB sampledb, busca los que pertenezcan ya al dia 02 de Septiembre del 2026, encuentra si fueron maliciosos y si lograron su objetivo y sugiere acciones a realizar.
+```
+
 
 
 
