@@ -1,3 +1,7 @@
+# 🤖 Mi Reporte de Prompts de IA
+
+¡Bienvenido a mi colección de prompts! Aquí guardo y organizo las instrucciones que utilizo con diferentes Inteligencias Artificiales para optimizar mi flujo de trabajo.
+
 ## 🎨 ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimit" in US East (N. Virginia)
 
 ### Analizar los Requests bloqueados por la regla
@@ -16,10 +20,6 @@ en Protección del sitemap y secciones: Aplicar a que te refieres con esto: rate
 cómo implementar Challenge (token) ?
 ```
 ---
-
-# 🤖 Mi Reporte de Prompts de IA
-
-¡Bienvenido a mi colección de prompts! Aquí guardo y organizo las instrucciones que utilizo con diferentes Inteligencias Artificiales para optimizar mi flujo de trabajo.
 
 ## 📝  ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimitJA4" in US East (N. Virginia)
 
