@@ -16,13 +16,22 @@ logs del waf:  DB  logs_waf_s3_db tabla waf_logs_webacl-prod_ja4_day  los logs d
 
 ---
 
-## 🎨 Prompts para Generación de Imágenes
+## 🎨 ALARM: "Bloqueo en WAF de IPs que sobre pasan el RateLimit" in US East (N. Virginia)
 
-### Estilo Cyberpunk Fotorrealista
-* **IA:** Midjourney v6
-* **Objetivo:** Crear un fondo de pantalla futurista.
+### Analizar los Requests bloqueados por la regla
+* **IA:** LibreChat
+* **Objetivo:** Detectar si es tráfico válido bloqueado por algún ciclado o si es tráfico malicioso.
 * **Prompt:**
 ```text
-A futuristic neon-lit street in Tokyo, cyberpunk style, rainy night, reflections on the wet asphalt, photorealistic, 8k resolution, cinematic lighting --ar 16:9
+puedes analizar el tráfico de esta ip 170.203.120.3 sobre el sitio www.reforma.com del día  2026-09-05  partir de las 06 Hrs  los logs están en athena en la DB sampledb tabla www_reforma_com, revisar si es tráfico malicioso y sugerir posibles soluciones para las miles de peticiones de esta ip
+------------------------------
+entonces puedo confiar qye fueron cientos de mils de requests de esa ip durante la mañana del dia de hoy?
+------------------------------
+a que te refieres con (pri. 19) en endurecer regla RateLimit o a (pri. 20)  en Reforzar Rate_Limit_JA4 ?
+------------------------------
+en Protección del sitemap y secciones: Aplicar a que te refieres con esto: rate-limit más estricto o token/challenge ?
+------------------------------
+cómo implementar Challenge (token) ?
 ```
+
 
